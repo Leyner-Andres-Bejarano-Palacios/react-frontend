@@ -21,6 +21,7 @@ import React from "react";
 import { Button } from "reactstrap";
 
 function FixedPlugin(props) {
+  const [debugging, setDebugging] = React.useState("Cualquier cosa");
   const [classes, setClasses] = React.useState("dropdown show");
   const handleClick = () => {
     if (classes === "dropdown") {

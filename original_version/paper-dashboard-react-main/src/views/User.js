@@ -17,6 +17,7 @@
 
 */
 import React from "react";
+import { useSyncExternalStore, useDebugValue } from 'react';
 
 // reactstrap components
 import {
@@ -34,6 +35,8 @@ import {
 } from "reactstrap";
 
 function User() {
+  useDebugValue("true");
+  
   return (
     <>
       <div className="content">
