@@ -20,3 +20,5 @@
     2.  and for debugging I am using the useState (useDebugVelue did not worked)
     ![Image](img/useStateForDebugging_part1.png "useStateForDebugging_part1.png")
     ![Image](img/useStateForDebugging_part2.png "useStateForDebugging_part2.png")
+3. Following the instructions of this guy
+    1.  https://www.youtube.com/watch?v=0W6i5LYKCSI

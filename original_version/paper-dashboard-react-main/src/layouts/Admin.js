@@ -21,10 +21,10 @@ import React from "react";
 import PerfectScrollbar from "perfect-scrollbar";
 import { Route, Routes, useLocation } from "react-router-dom";
 
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import Footer from "components/Footer/Footer.js";
-import Sidebar from "components/Sidebar/Sidebar.js";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
+import DemoNavbar from "components/DemoNavbar.js";
+import Footer from "components/Footer.js";
+import Sidebar from "components/Sidebar.js";
+import FixedPlugin from "components/FixedPlugin.js";
 import routes from "routes.js";
 
 var ps;
